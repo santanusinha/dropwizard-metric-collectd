@@ -2,6 +2,7 @@
 # Dropwizard Metrics Collectd Integration
 
 [![Build Status](https://travis-ci.org/g-fresh/dropwizard-metrics-collectd.svg?branch=master)](https://travis-ci.org/g-fresh/dropwizard-metrics-collectd)
+[![Coverage Status](https://coveralls.io/repos/g-fresh/dropwizard-metrics-collectd/badge.svg?branch=master&service=github)](https://coveralls.io/github/g-fresh/dropwizard-metrics-collectd?branch=master)
 
 ## What it is
 
