@@ -1,6 +1,8 @@
 
 # Dropwizard Metrics Collectd Integration
 
+[![Build Status](https://travis-ci.org/g-fresh/dropwizard-metrics-collectd.svg?branch=master)](https://travis-ci.org/g-fresh/dropwizard-metrics-collectd)
+
 ## What it is
 
 An artifact providing support for pushing metrics from your Dropwizard app
