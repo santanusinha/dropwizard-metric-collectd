@@ -1,0 +1,9 @@
+reporters:
+  - type: collectd
+    host: localhost
+    port: 2004
+    localHost: app01
+    securityLevel: ENCRYPT
+    username: test
+    password: shared-secret
+
