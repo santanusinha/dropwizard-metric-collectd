@@ -16,7 +16,7 @@ Configuration is done through the application configuration file.
 Add the dependency to your project:
 
     <dependency>
-        <groupId>me.g-fresh</groupId>
+        <groupId>io.appform.dropwizard</groupId>
         <artifactId>dropwizard-metrics-collectd</artifactId>
         <version>${dropwizard-metrics-collectd.version}</version>
     </dependency>
