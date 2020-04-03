@@ -17,9 +17,7 @@ import javax.validation.constraints.NotNull;
 /**
  * Builds a CollectdReporter.
  *
- * <table>
- *     <summary>Configuration Parameters:</summary>
- *     <caption>Configuration Parameters:</caption>
+ * <table summary="Configuration Parameters">
  *     <tr>
  *         <td>Name</td>
  *         <td>Default</td>
