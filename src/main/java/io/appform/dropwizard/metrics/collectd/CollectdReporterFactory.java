@@ -14,6 +14,58 @@ import javax.validation.constraints.Max;
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotNull;
 
+/**
+ * Builds a CollectdReporter.
+ *
+ * <table>
+ *     <tr>
+ *         <td>Name</td>
+ *         <td>Default</td>
+ *         <td>Description</td>
+ *     </tr>
+ *     <tr>
+ *         <td>{@code host}</td>
+ *         <td>(none)</td>
+ *         <td>The metrics are sent to this host.</td>
+ *     </tr>
+ *     <tr>
+ *         <td>{@code port}</td>
+ *         <td>(none)</td>
+ *         <td>The port on host where collectd is listening.</td>
+ *     </tr>
+ *     <tr>
+ *         <td>{@code securityLevel}</td>
+ *         <td>NONE</td>
+ *         <td>
+ *             Possible values are defined in class
+ *             {@code com.codahale.metrics.collectd.SecurityLevel}:
+ *             <ul>
+ *                 <li>NONE: no security</li>
+ *                 <li>SIGN: enables signing of packets</li>
+ *                 <li>ENCRYPT: enables packet encryption</li>
+ *             </ul>
+ *         </td>
+ *     </tr>
+ *     <tr>
+ *         <td>{@code username}</td>
+ *         <td>(none)</td>
+ *         <td>Required when using security level SIGN or ENCRYPT.</td>
+ *     </tr>
+ *     <tr>
+ *         <td>{@code password}</td>
+ *         <td>(none)</td>
+ *         <td>
+ *             Shared secret for signing/encrypting packets.
+ *             Required when using security level SIGN or ENCRYPT.
+ *         </td>
+ *     </tr>
+ *     <tr>
+ *         <td>{@code localHost}</td>
+ *         <td>{@code InetAddress.getLocalHost().getHostName()}</td>
+ *         <td></td>
+ *     </tr>
+ * </table>
+ */
 @JsonTypeName("collectd")
 public class CollectdReporterFactory extends BaseReporterFactory {
 

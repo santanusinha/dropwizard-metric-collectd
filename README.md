@@ -32,7 +32,5 @@ application configuration file:
 
 The example given above uses the minimal configuration.
 
-For the full list of options specific to the collectd reporter, see the [API documentation](http://www.javadoc.io/doc/me.g-fresh/dropwizard-metrics-collectd/me/g_fresh/dropwizard/metrics/collectd/CollectdReporterFactory.html)
-
 Additional common options can be specified as described in the
-[Dropwizard Manual](http://www.dropwizard.io/1.3.1/docs/manual/configuration.html#all-reporters)
+[Dropwizard Manual](https://www.dropwizard.io/en/release-1.3.x/manual/core.html#metrics)
