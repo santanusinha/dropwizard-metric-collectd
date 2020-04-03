@@ -17,9 +17,9 @@ import javax.validation.constraints.NotNull;
 /**
  * Builds a CollectdReporter.
  *
- * <p/>
- * <b>Configuration Parameters:</b>
  * <table>
+ *     <summary>Configuration Parameters:</summary>
+ *     <caption>Configuration Parameters:</caption>
  *     <tr>
  *         <td>Name</td>
  *         <td>Default</td>
@@ -33,7 +33,7 @@ import javax.validation.constraints.NotNull;
  *     <tr>
  *         <td>{@code port}</td>
  *         <td>(none)</td>
- *         <td>The port on <tt>host</tt> where collectd is listening.</td>
+ *         <td>The port on host where collectd is listening.</td>
  *     </tr>
  *     <tr>
  *         <td>{@code securityLevel}</td>
