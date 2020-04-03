@@ -1,5 +1,6 @@
-target/
-dependency-reduced-pom.xml
-pom.xml.releaseBackup
-pom.xml.versionsBackup
-release.properties
+# Created by .ignore support plugin (hsz.mobi)
+.idea
+target
+*.ipr
+*.iml
+*.iws
