@@ -1,4 +1,4 @@
-package me.g_fresh.dropwizard.metrics.collectd;
+package io.appform.dropwizard.metrics.collectd;
 
 import com.codahale.metrics.MetricRegistry;
 import com.codahale.metrics.ScheduledReporter;

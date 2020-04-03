@@ -1,1 +1,1 @@
-me.g_fresh.dropwizard.metrics.collectd.CollectdReporterFactory
+io.appform.dropwizard.metrics.collectd.CollectdReporterFactory
