@@ -1,7 +1,7 @@
 
 # Dropwizard Metrics Collectd Integration
 
-[![Build Status](https://travis-ci.org/github/santanusinha/dropwizard-metric-collectd.svg?branch=master)](https://travis-ci.org/github/santanusinha/dropwizard-metric-collectd)
+[![Build Status](https://travis-ci.org/santanusinha/dropwizard-metric-collectd.svg?branch=master)](https://travis-ci.org/github/santanusinha/dropwizard-metric-collectd)
 
 ## What it is
 
